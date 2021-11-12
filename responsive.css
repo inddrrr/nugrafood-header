@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+    .header-logo {
+        width: 20%;
+    }
+
+    header ul {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    header ul {
+        display: none;
+    }
+
+    .header-logo {
+        width: 35%;
+        font-size: 35px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-toggle input:checked ~ ul {
+        opacity: 1;
+        height: 50vh;
+        visibility: visible;
+    }
+}
